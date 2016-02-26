@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_margin="3dp"
+    	android:background="@drawable/forecast_dialog_background">
+
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingBottom="10dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="10dp">
+    
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="5dp"
+	        android:text="@string/change_city"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="@color/text_color_white" />
+	    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="3dp"
+	        android:background="@drawable/dotted_line"
+	        android:layerType="software" />
+	    
+	    <EditText
+	        android:id="@+id/city"
+	        android:layout_width="150dp"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="@color/text_color_white"
+	        android:layout_marginTop="15dp" />
+	    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="2dp"
+	        android:background="@drawable/dotted_line"
+	        android:layerType="software" />
+
+	</LinearLayout>
